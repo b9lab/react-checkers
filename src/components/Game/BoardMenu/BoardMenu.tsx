@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import * as FontAwesome from "react-icons/lib/fa";
+import * as FontAwesome from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Button, Tooltip } from "reactstrap";
 
@@ -35,7 +35,7 @@ export default class BoardMenu extends Component<
                         How to Play
                     </Button>
                 </Link>
-                <FontAwesome.FaFloppyO
+                <FontAwesome.FaSave
                     className="float-right"
                     id="gameIsSavedIcon"
                     style={{ color: savedColor }}
